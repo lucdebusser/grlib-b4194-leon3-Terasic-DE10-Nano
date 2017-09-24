@@ -1,0 +1,13 @@
+	component unnamed is
+		port (
+			addr       : in  std_logic_vector(23 downto 0) := (others => 'X'); -- addr
+			busy       : out std_logic;                                        -- busy
+			clkin      : in  std_logic                     := 'X';             -- clk
+			data_valid : out std_logic;                                        -- data_valid
+			dataout    : out std_logic_vector(7 downto 0);                     -- dataout
+			rden       : in  std_logic                     := 'X';             -- rden
+			read       : in  std_logic                     := 'X';             -- read
+			reset      : in  std_logic                     := 'X'              -- reset
+		);
+	end component unnamed;
+

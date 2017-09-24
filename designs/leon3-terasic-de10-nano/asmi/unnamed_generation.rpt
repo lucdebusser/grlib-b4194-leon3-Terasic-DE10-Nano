@@ -1,0 +1,29 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /opt2/grlib/project_de10_nano/grlib-gpl-2017.2-b4194/designs/leon3-terasic-de10-nano/unnamed.qsys --block-symbol-file --output-directory=/opt2/grlib/project_de10_nano/grlib-gpl-2017.2-b4194/designs/leon3-terasic-de10-nano/asmi --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading leon3-terasic-de10-nano/unnamed.qsys
+Progress: Reading input file
+Progress: Adding asmi_parallel_0 [altera_asmi_parallel 17.0]
+Progress: Parameterizing module asmi_parallel_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /opt2/grlib/project_de10_nano/grlib-gpl-2017.2-b4194/designs/leon3-terasic-de10-nano/unnamed.qsys --synthesis=VERILOG --output-directory=/opt2/grlib/project_de10_nano/grlib-gpl-2017.2-b4194/designs/leon3-terasic-de10-nano/asmi/synthesis --family="Cyclone V" --part=5CSEBA6U23I7
+Progress: Loading leon3-terasic-de10-nano/unnamed.qsys
+Progress: Reading input file
+Progress: Adding asmi_parallel_0 [altera_asmi_parallel 17.0]
+Progress: Parameterizing module asmi_parallel_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: unnamed: Generating unnamed "unnamed" for QUARTUS_SYNTH
+Info: asmi_parallel_0: generating top-level entity unnamed_asmi_parallel_0
+Info: asmi_parallel_0: "unnamed" instantiated altera_asmi_parallel "asmi_parallel_0"
+Info: unnamed: Done "unnamed" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
